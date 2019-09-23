@@ -9,6 +9,7 @@ others.totalwgt_lb.mean()
 Average for firsts: 7.201094
 Average for others: 7.325855
 
+The difference between the average weights is .124 pounds.
 
 Cohen's effect:
 ```
