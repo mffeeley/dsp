@@ -86,14 +86,21 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> The probability of identical twins with two males is 1/300 times 1/2 (since the other half would be female twins).
+>> The probability of fraternal twins with two males is 1/125 times 1/4 (since we only want the MM combo out of FM, MF, and FF).
+>> Bayes Therem says that the probability of identical twins, given twin brothers is the probability of identical and twin brothers, divided by the probability of twin brothers.
+>> The probability of identical twins (given twin brothers) is the first calculation, which evaluates to 1/600.
+>> The probability of twin brothers is the sum of both of the above calculations, which evaluates to 1/600 + 1/500, or 11/3000.
+>> 1/600 divided by 11/3000 evaluates to .4545, which is 45.4% (the final answer).
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Frequentists rely purely on obtained data from repeatable instances.  To frequentists, the probability can only be calculated for events with a sample of repeated trials over a period of time.  For instance, if I shoot a basketball 100 times, a frequentist would calculate the probability of getting a shot in as how many shots I made divided by 100.  To frequentists, probability can only be assigned to events based on a frequency of that event occuring.
+
+>> Bayesian statisticians assign probabilities more loosely based on prior data as well.  Unknown data can be assigned a probability based on other circumstances, even though the even was never tested at all, let alone on a frequent basis.  A frequentist would never assign a probability to an event that has never been tested, because there is no data available to calculate it.
 
 ---
 
